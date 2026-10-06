@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>妆镜 · 我的皮肤报告</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="stylesheet" href="/static/editorial.css">
+  <link rel="stylesheet" href="/static/future.css">
+</head>
+<body data-page="report">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/" style="text-decoration:none;color:inherit">
+        <span class="brand-flower">✳</span>
+        <span>妆镜 <span class="brand-en">BEAUTY MIRROR</span></span>
+      </a>
+      <div class="topbar-spacer"></div>
+      <a class="topbar-note" href="/static/workbench.html">重新拍一张</a>
+    </div>
+  </header>
+
+  <main class="wrap"><section class="result-title"><span class="eyebrow">YOUR PERSONAL BEAUTY EDIT</span><h1>读懂肌肤，焕新日常。</h1><p>你的肌肤观察与专属护理建议</p></section>
+    <div id="loading" class="loading-box">
+      <span class="spinner dark"></span>
+      <span>正在整理你的报告…</span>
+    </div>
+
+    <div id="error-box" class="hidden" style="margin-top:24px"></div>
+
+    <div id="content" class="hidden">
+      <section class="card">
+        <div class="report-head">
+          <img id="face" class="face" alt="素颜照">
+          <div class="summary">
+            <h2 id="headline">—</h2>
+            <p class="skin-summary" id="skin-summary"></p>
+            <div id="skin-chips" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"></div>
+          </div>
+        </div>
+        <div id="vision-notices" style="margin-top:16px"></div>
+        <p class="basis" id="basis"></p>
+        <details class="answers" id="answers" style="margin-top:12px">
+          <summary>问卷依据（3 题，肤质结论由此得出）</summary>
+          <div id="answers-list"></div>
+        </details>
+      </section>
+
+      <section class="card">
+        <h2>可见问题</h2>
+        <p class="sub" id="issue-provider"></p>
+        <div id="issues" class="issues"></div>
+      </section>
+
+      <section class="card">
+        <h2>护肤方案</h2>
+        <p class="sub">按你的肤质结论给出基础三步，可直接照着执行。</p>
+        <div id="plan-sections"></div>
+      </section>
+
+      <section class="card">
+        <h2>针对性护理</h2>
+        <p class="sub">按照片检出的可见问题逐条对应。</p>
+        <div id="plan-target"></div>
+      </section>
+
+      <section class="card">
+        <h2>美妆要点</h2>
+        <p class="sub">上妆时针对这些问题的处理顺序与手法。</p>
+        <div id="makeup"></div>
+      </section>
+
+      <section id="conflicts" class="hidden" style="margin:18px 0"></section>
+
+      <section class="card">
+        <h2>检测局限（请务必阅读）</h2>
+        <p class="sub">这些限制会直接影响结论可信度，不要只看结论。</p>
+        <div id="limitations"></div>
+      </section>
+
+      <section class="card" id="retake-card" style="display:none">
+        <h2>没检出痘印 / 毛孔？</h2>
+        <p class="sub">细小特征容易被漏检。补拍一张两颊特写（侧脸、自然光、近距离）能显著提高检出率。</p>
+        <a class="btn" href="/static/workbench.html">补拍一张 →</a>
+      </section>
+
+      <section class="card">
+        <h2>合规自查</h2>
+        <p class="sub">出稿前用规则体检医疗红线、绝对化用语与效果承诺。</p>
+        <div id="compliance"></div>
+        <p class="disclaimer" id="disclaimer"></p>
+      </section>
+
+      <section class="card" style="text-align:center">
+        <h2>接下来：按你的风格跟练</h2>
+        <p class="sub">选一个风格标签，看真实博主的代表内容与妆教拆解。</p>
+        <a id="btn-follow" class="btn lg" href="/follow">去看妆教跟练 →</a>
+      </section>
+    </div>
+
+    <footer class="footer">
+      妆镜 · 结果基于照片可见特征与问卷自评，非医学判断
+    </footer>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

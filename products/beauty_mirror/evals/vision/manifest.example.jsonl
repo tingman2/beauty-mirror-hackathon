@@ -1,0 +1,3 @@
+{"id": "s01", "image": "fixtures/sample_01.png", "expected_issues": ["acne_marks", "redness"], "notes": "示例占位。真实评测请换成已获授权的 50 张标注照。"}
+{"id": "s02", "image": "fixtures/sample_02.png", "expected_issues": ["t_zone_oil", "pores", "dark_circles"], "notes": "示例占位。注意：故意留一个未命中，用来验证闸门会 FAIL。"}
+{"id": "s03", "image": "fixtures/sample_03.png", "expected_issues": ["pores"], "notes": "示例占位。"}

@@ -1,0 +1,171 @@
+{
+  "_note": "本地 mock 兜底数据。第三方内容 API 超时/报错/返回空时使用，保证 demo 不白屏。链接均为演示占位，非真实博主。",
+  "_schema": "cards[]: id / platform / creator / creator_id / title / summary / cover_url / original_url / style_tags / tutorials[]",
+  "cards": [
+    {
+      "id": "mock-xhs-001",
+      "platform": "xiaohongshu",
+      "creator": "小满的清晨",
+      "creator_id": "mock_xhs_001",
+      "title": "清透裸妆全流程｜会议室灯下也不卡粉",
+      "summary": "底妆只做三步：妆前乳点涂两颊、粉底液少量多次拍开、散粉只压 T 区。重点在「少量」，不是「多涂」。",
+      "cover_url": "https://placehold.co/600x800/e8f0ea/33413a?text=Clean+Nude",
+      "original_url": "https://www.xiaohongshu.com/explore/mock0001",
+      "style_tags": ["清透裸妆", "clean_nude"],
+      "tutorials": [
+        {
+          "id": "clean_nude_01",
+          "title": "5 分钟伪素颜：底妆只上三层",
+          "duration": "6min",
+          "steps": [
+            "妆前：保湿乳只在两颊按压，T 区留空",
+            "底妆：粉底液挤半泵，用指腹从面中向外拍开",
+            "定妆：散粉只压 T 区与鼻翼，脸颊保留光泽"
+          ]
+        },
+        {
+          "id": "clean_nude_02",
+          "title": "无妆感眉眼：只补三处",
+          "duration": "4min",
+          "steps": [
+            "眉：只补眉尾，眉头用手晕开",
+            "睫毛：夹翘后刷一层，不叠加",
+            "唇：有色润唇膏薄涂，边缘用手指模糊"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mock-xhs-002",
+      "platform": "xiaohongshu",
+      "creator": "阿玫的化妆台",
+      "creator_id": "mock_xhs_002",
+      "title": "韩系水光肌｜干皮秋冬版",
+      "summary": "水光的关键在妆前而不是高光。先用保湿精华按压到半吸收，再上薄底妆，高光只点在颧骨上方一点。",
+      "cover_url": "https://placehold.co/600x800/f3ece4/3a3230?text=Glass+Skin",
+      "original_url": "https://www.xiaohongshu.com/explore/mock0002",
+      "style_tags": ["韩系水光", "korean_glass"],
+      "tutorials": [
+        {
+          "id": "korean_glass_01",
+          "title": "水光底妆：先补水后上妆的顺序",
+          "duration": "7min",
+          "steps": [
+            "妆前：保湿精华按压，等 60 秒到半吸收",
+            "底妆：气垫少量多次，重点拍面中",
+            "高光：颧骨上方一小点，不要扫开"
+          ]
+        },
+        {
+          "id": "korean_glass_02",
+          "title": "卧蚕 + 果汁唇：两步提亮整张脸",
+          "duration": "5min",
+          "steps": [
+            "卧蚕：浅色在下眼睑前 1/3，用指腹压",
+            "腮红：笑肌上方横向轻扫，不超过鼻翼",
+            "唇：唇釉中间厚、边缘薄，做出渐变"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mock-dy-003",
+      "platform": "douyin",
+      "creator": "古月不上妆",
+      "creator_id": "mock_dy_003",
+      "title": "新中式｜雾面底妆不显干的画法",
+      "summary": "雾面感来自定妆粉的用量和顺序，不是把粉底涂厚。先定外圈再定 T 区，脸就不容易卡纹。",
+      "cover_url": "https://placehold.co/600x800/efe6e0/3d2f2a?text=New+Chinese",
+      "original_url": "https://www.douyin.com/video/mock0003",
+      "style_tags": ["新中式", "new_chinese"],
+      "tutorials": [
+        {
+          "id": "new_chinese_01",
+          "title": "新中式底妆：雾面但不干",
+          "duration": "8min",
+          "steps": [
+            "底妆：先用保湿型粉底，薄铺一层",
+            "定妆：粉扑先定脸颊外圈，最后定 T 区",
+            "修容：下颌线一条，不要来回扫"
+          ]
+        },
+        {
+          "id": "new_chinese_02",
+          "title": "柳叶眉与正红唇的搭配比例",
+          "duration": "6min",
+          "steps": [
+            "眉：眉峰略挑，眉尾收细，长度不过眼尾垂直线",
+            "眼线：只画后半段，微微上扬",
+            "唇：正红薄涂，唇峰用指腹压出边界"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mock-dy-004",
+      "platform": "douyin",
+      "creator": "Kiki 的浓颜笔记",
+      "creator_id": "mock_dy_004",
+      "title": "欧美浓颜｜新手版立体修容",
+      "summary": "修容的顺序是「先定骨相，再上颜色」。位置错了再淡也脏，位置对了浓一点也干净。",
+      "cover_url": "https://placehold.co/600x800/e4dfe8/2f2a33?text=Bold",
+      "original_url": "https://www.douyin.com/video/mock0004",
+      "style_tags": ["欧美浓颜", "euro_bold"],
+      "tutorials": [
+        {
+          "id": "euro_bold_01",
+          "title": "立体修容：先定骨相再上色",
+          "duration": "9min",
+          "steps": [
+            "定位：手指按颧骨下方找到自然阴影线",
+            "修容：沿阴影线单向扫，不来回",
+            "高光：颧骨最高点拍开，面积不超过一元硬币"
+          ]
+        },
+        {
+          "id": "euro_bold_02",
+          "title": "截断眼影新手版：不显脏的画法",
+          "duration": "7min",
+          "steps": [
+            "打底：眼窝先铺一层接近肤色的过渡色",
+            "截断：用小刷子在眼窝线内侧上深色",
+            "收尾：边缘用干净刷子扫一遍消界"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mock-xhs-005",
+      "platform": "xiaohongshu",
+      "creator": "桃子的元气日常",
+      "creator_id": "mock_xhs_005",
+      "title": "日系元气｜腮红位置比颜色更重要",
+      "summary": "同样的腮红，往上挪 5 毫米就从「元气」变「显憔悴」。位置在苹果肌偏上、不超过鼻翼。",
+      "cover_url": "https://placehold.co/600x800/fbe9e7/3a2b28?text=Japanese",
+      "original_url": "https://www.xiaohongshu.com/explore/mock0005",
+      "style_tags": ["日系元气", "jp_vivid"],
+      "tutorials": [
+        {
+          "id": "jp_vivid_01",
+          "title": "元气腮红：位置比对颜色更重要",
+          "duration": "4min",
+          "steps": [
+            "位置：苹果肌偏上，横向不超过鼻翼",
+            "手法：少量多次，先中间后边缘",
+            "收尾：手指压一下，让边界融进底妆"
+          ]
+        },
+        {
+          "id": "jp_vivid_02",
+          "title": "透明感眼妆：睫毛与卧蚕的分工",
+          "duration": "6min",
+          "steps": [
+            "睫毛：夹翘 → 刷根 → 梳开，不追求浓密",
+            "卧蚕：浅色打底 + 阴影线一笔",
+            "眼影：只用一层浅棕压眼窝，不做截断"
+          ]
+        }
+      ]
+    }
+  ]
+}

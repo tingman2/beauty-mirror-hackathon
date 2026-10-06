@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f5f1"><title>妆镜 · 专属美妆工作台</title><link rel="stylesheet" href="/static/app.css"><link rel="stylesheet" href="/static/editorial.css"><link rel="stylesheet" href="/static/future.css"></head>
+<body data-page="upload" class="workbench-page"><header class="future-nav"><a class="future-logo" href="/">BEAUTY MIRROR<span>妆镜</span></a><span class="future-middle">YOUR PERSONAL RITUAL</span><a class="future-contact" href="/">返回首页 <span>↗</span></a></header><main class="future-wrap"><section id="ritual" class="ritual-section"><div class="section-heading"><div><div class="eyebrow">YOUR PERSONAL BEAUTY RITUAL</div><h2>从了解肌肤，开始你的美学。</h2></div><span class="section-note">留一点时间，给自己。</span></div><div class="ritual-layout"><aside class="ritual-aside"><span class="aside-index">01 / START WITH YOU</span><h3>属于你的<br>美妆工作台。</h3><p>无需复杂步骤。用一张素颜照和三个日常问题，让护理和上妆更有方向。</p><ol class="ritual-steps"><li><span>01</span><div><b>上传素颜照</b><small>自然光下，真实的你</small></div></li><li><span>02</span><div><b>聊聊肌肤状态</b><small>回答三个日常肤感问题</small></div></li><li><span>03</span><div><b>收下专属建议</b><small>护肤方案 · 美妆要点 · 风格跟练</small></div></li></ol><span class="aside-flower">✳</span></aside><div class="ritual-form">    <section class="card upload-card">
+      <h2>上传素颜照</h2>
+      <p class="sub">建议：自然光、正对镜头、无妆、不戴眼镜；仅用于本次分析。</p>
+
+      <label class="consent" for="consent">
+        <input type="checkbox" id="consent">
+        <span>我已阅读并同意：照片仅用于本次分析，写入本机临时目录、随会话结束自动删除；不上传第三方存储、不用于模型训练。我确认这张照片由本人授权使用。</span>
+      </label>
+
+      <div id="dropzone" class="dropzone" role="button" tabindex="0" aria-label="选择素颜照片">
+        <div class="upload-symbol">＋</div>
+        <div class="title">点击选择，或把照片拖到这里</div>
+        <div class="hint">支持 JPG / PNG / WebP，单张不超过 10MB</div>
+      </div>
+      <input id="file-input" type="file" accept="image/*" class="hidden">
+
+      <div id="preview" class="preview hidden">
+        <img id="preview-img" alt="预览">
+        <div class="meta">
+          <div class="name" id="preview-name"></div>
+          <div class="size" id="preview-size"></div>
+        </div>
+        <button id="btn-repick" class="btn ghost" type="button">换一张</button>
+      </div>
+    </section>
+
+    <section id="questionnaire-card" class="card hidden">
+      <h2>回答 3 道题</h2>
+      <p class="sub">让我们了解你的日常肤感，为你整理更适合的护理与上妆建议。</p>
+      <div id="questionnaire"></div>
+      <div style="margin-top:18px">
+        <button id="btn-generate" class="btn lg block" type="button">生成我的报告</button>
+      </div>
+    </section>
+
+<details class="service-details"><summary>查看分析服务状态 <span>＋</span></summary><p class="sub">真实分析与示例结果会明确标注。</p><div id="status-card"></div></details></div></div></section>
+<footer class="footer" style="padding:20px 20px 45px">妆镜 · 肌肤观察与美妆建议，非医学判断</footer></main><script src="/static/app.js"></script></body></html>

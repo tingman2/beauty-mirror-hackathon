@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>妆镜 · 按风格跟练</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="stylesheet" href="/static/editorial.css">
+  <link rel="stylesheet" href="/static/future.css">
+</head>
+<body data-page="follow">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/" style="text-decoration:none;color:inherit">
+        <span class="brand-flower">✳</span>
+        <span>妆镜 <span class="brand-en">BEAUTY MIRROR</span></span>
+      </a>
+      <div class="topbar-spacer"></div>
+      <a class="topbar-note" href="/static/workbench.html">重新开始</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" style="padding-top:32px">
+      <h1>把喜欢的风格，化成日常。</h1>
+      <p>按风格标签匹配真实博主的代表内容；点开卡片看分步拆解。内容来自第三方平台，本页只做跳转与自撰框架。</p>
+    </section>
+
+    <section class="card">
+      <h2>风格标签</h2>
+      <p class="sub">五种美妆表达，找到今天的你。</p>
+      <div id="style-chips" class="style-chips"></div>
+    </section>
+
+    <section id="source-status" style="margin:14px 0"></section>
+
+    <section class="card">
+      <h2>平台跟练脚本</h2>
+      <p class="sub">平台编排的跟练步骤（非博主原文）。点「开始跟练」，进入前置镜头陪练。</p>
+      <div id="scripts" class="scripts"></div>
+    </section>
+
+    <section class="card">
+      <h2>博主作品（风格参考）</h2>
+      <p class="sub">真实博主的代表内容，版权归原作者；点「去原平台」看原视频，点「用作参考」把它设为目标妆效。</p>
+      <div id="cards-notice" class="hidden" style="margin:10px 0"></div>
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <section class="card" style="margin-top:28px">
+      <h2>加入社群</h2>
+      <div id="qr"></div>
+    </section>
+
+    <section class="card">
+      <h3>来源与版权</h3>
+      <p class="src-note">
+        卡片来自第三方数据平台（Apify）对公开内容的检索结果。在未取得转授权前，
+        本页不转载博主文案，仅保留作者、风格标签与原平台跳转链接；显示的分步拆解若标注为
+        「平台自撰」，为便于跟练整理的通用框架，不代表原作者原话。
+      </p>
+      <p class="disclaimer">如你是内容作者且不希望被索引，可通过社群入口联系我们移除。</p>
+    </section>
+
+    <footer class="footer">
+      妆镜 · 按抖音/小红书博主风格选妆教
+    </footer>
+  </main>
+
+  <div id="modal" class="modal-mask">
+    <div class="modal">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <h3 id="modal-title" style="margin:0">跟练拆解</h3>
+        <button id="modal-close" class="close" type="button" aria-label="关闭">✕</button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

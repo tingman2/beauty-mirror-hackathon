@@ -1,0 +1,5 @@
+# 「妆镜」依赖
+anthropic==0.123.0
+python-dotenv==1.2.3
+pyyaml==6.0.3
+openai>=1.40.0

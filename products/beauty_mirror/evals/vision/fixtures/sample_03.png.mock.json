@@ -1,0 +1,7 @@
+{
+  "image_quality": {"ok": true, "issues": ["mock-sidecar"]},
+  "detected": [
+    {"type": "pores", "confidence": 0.58, "severity": "mild", "areas": ["面颊"]},
+    {"type": "dark_circles", "confidence": 0.31, "severity": "mild", "areas": ["眼下"]}
+  ]
+}

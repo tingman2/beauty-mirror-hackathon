@@ -1,0 +1,7 @@
+{
+  "image_quality": {"ok": true, "issues": ["mock-sidecar"]},
+  "detected": [
+    {"type": "t_zone_oil", "confidence": 0.66, "severity": "moderate", "areas": ["额头", "鼻部"]},
+    {"type": "pores", "confidence": 0.52, "severity": "mild", "areas": ["鼻翼"]}
+  ]
+}

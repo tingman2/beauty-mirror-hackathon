@@ -1,0 +1,8 @@
+本产品运行产物与本地环境（不应分发）
+.venv/
+.trajectories/
+__pycache__/
+*.pyc
+.env
+report.md
+report.json

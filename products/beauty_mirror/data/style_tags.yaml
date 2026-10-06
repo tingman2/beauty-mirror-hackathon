@@ -1,0 +1,100 @@
+# 风格标签清单 —— 1.0 规模：5 个标签 × 2 个妆教拆解 = 10
+# 状态：草案（等你拉最终清单后替换 name / aliases / tutorials 即可，代码不用动）
+# 说明：这份清单只用于「标签 → 检索词」的映射，不承载任何博主内容；
+#       博主内容由第三方内容 API 提供，接口挂了则走 data/mock_creators.json。
+
+style_tags:
+  - id: clean_nude
+    name: 清透裸妆
+    aliases: [裸妆, 伪素颜, 清透底妆, 通勤妆]
+    keywords: [轻薄底妆, 提气色, 自然眉]
+    recipe:
+      base: 清透半哑光底妆，肤色均匀提亮，只薄薄一层，保留皮肤质感
+      brow: 自然平眉，眉粉轻扫，颜色接近发色
+      eyes: 浅棕色铺眼窝，眼尾略加深；棕色内眼线；睫毛夹翘刷一层
+      blush: 淡粉腮红扫苹果肌，少量多次
+      lips: 裸粉色唇膏薄涂，边缘用手指模糊
+      contour: 下颌与鼻梁极轻扫修容
+    tutorials:
+      - id: clean_nude_01
+        title: 5 分钟伪素颜：底妆只上三层
+        focus: [底妆, 遮瑕, 定妆]
+      - id: clean_nude_02
+        title: 无妆感眉眼：只补三处就出门
+        focus: [眉形, 睫毛, 唇色]
+
+  - id: korean_glass
+    name: 韩系水光
+    aliases: [水光肌, 韩妆, 奶油肌]
+    keywords: [水光底妆, 卧蚕, 果汁唇]
+    recipe:
+      base: 水光通透底妆：面中与颧骨要有明显的水润高光与反光，皮肤透亮；不要哑光、不要死白
+      brow: 柔和自然眉，颜色比发色浅一号（必须保留眉毛）
+      eyes: 香槟色眼头提亮，浅棕晕染，卧蚕明显
+      blush: 桃粉色腮红，位置略高靠近眼下，少量
+      lips: 果汁感珊瑚色唇釉，饱满有光泽
+      contour: 几乎不修容，用高光代替
+    tutorials:
+      - id: korean_glass_01
+        title: 水光底妆：先补水后上妆的顺序
+        focus: [妆前, 底妆, 高光]
+      - id: korean_glass_02
+        title: 卧蚕 + 果汁唇：两步提亮整张脸
+        focus: [卧蚕, 腮红, 唇妆]
+
+  - id: new_chinese
+    name: 新中式
+    aliases: [中式妆, 国风, 古典妆]
+    keywords: [雾面底妆, 柳叶眉, 正红唇]
+    recipe:
+      base: 清透雾面底妆，肤色均匀自然，薄涂，不要死白
+      brow: 细长柳叶眉，眉峰柔和，颜色自然（必须保留眉毛）
+      eyes: 浅棕大地色轻扇眼窝，眼尾微微上挑，不要浓重
+      blush: 淡雅豆沙腮红，低位置斜扇，少量
+      lips: 豆沙红或水红色，薄涂、唇形清晰自然；不要正红/荧红光、不要厚涂
+      contour: 极轻微修容，保持干净
+    tutorials:
+      - id: new_chinese_01
+        title: 新中式底妆：雾面但不干
+        focus: [底妆, 修容, 定妆]
+      - id: new_chinese_02
+        title: 柳叶眉与正红唇的搭配比例
+        focus: [眉形, 唇妆, 眼线]
+
+  - id: euro_bold
+    name: 欧美浓颜
+    aliases: [浓颜, 混血妆, 立体妆]
+    keywords: [修容, 截断眼影, 裸色唇]
+    recipe:
+      base: 哑光高遮瑕底妆，肤色均匀，立体感强
+      brow: 眉形清晰、眉峰上挑，眉尾拉长
+      eyes: 截断式眼影，深棕或黑色晕染眼窝；上挑粗眼线；睫毛浓密
+      blush: 裸棕或砖红腮红，斜向上扫
+      lips: 裸色或砖红哑光唇，唇线清晰
+      contour: 明显修容，强化颧骨与下颅线；鼻梁提亮
+    tutorials:
+      - id: euro_bold_01
+        title: 立体修容：先定骨相再上色
+        focus: [修容, 高光, 腮红]
+      - id: euro_bold_02
+        title: 截断眼影新手版：不显脏的画法
+        focus: [眼影, 眼线, 睫毛]
+
+  - id: jp_vivid
+    name: 日系元气
+    aliases: [日系, 元气妆, 透明感]
+    keywords: [腮红, 自然睫毛, 嘟嘟唇]
+    recipe:
+      base: 通透裸感底妆，脸颊保留红润
+      brow: 自然柔和眉，略粗、眉头淡
+      eyes: 粉色或橘棕眼影轻扫，卧蚕明显；睫毛自然卷翘
+      blush: 元气珊瑚色腮红，位置在苹果肌中央
+      lips: 珊瑚粉或水红色唇，光泽感
+      contour: 基本不修容
+    tutorials:
+      - id: jp_vivid_01
+        title: 元气腮红：位置比对颜色更重要
+        focus: [腮红, 底妆, 高光]
+      - id: jp_vivid_02
+        title: 透明感眼妆：睫毛与卧蚕的分工
+        focus: [睫毛, 卧蚕, 眼影]

@@ -1,0 +1,8 @@
+{
+  "image_quality": {"ok": true, "issues": ["mock-sidecar"]},
+  "detected": [
+    {"type": "acne_marks", "confidence": 0.71, "severity": "mild", "areas": ["左脸颊"]},
+    {"type": "redness", "confidence": 0.62, "severity": "mild", "areas": ["两颊"]},
+    {"type": "pores", "confidence": 0.28, "severity": "mild", "areas": ["鼻翼"]}
+  ]
+}
