@@ -1,0 +1,22 @@
+{
+  "title": "妆镜",
+  "type": "操作流程示意，非实机录屏",
+  "steps": [
+    {
+      "action": "进入美妆工作台",
+      "description": "选择对应产品入口"
+    },
+    {
+      "action": "提交观察素材",
+      "description": "按页面要求准备图片"
+    },
+    {
+      "action": "查看分析与分类",
+      "description": "阅读观察结果与边界"
+    },
+    {
+      "action": "进入妆教跟练",
+      "description": "按教程步骤查看与跟练"
+    }
+  ]
+}
