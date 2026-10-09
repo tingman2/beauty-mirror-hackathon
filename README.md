@@ -1,12 +1,12 @@
-## 启动与操作演示
+## 界面操作演示
 
 <p align="center">
-  <a href="assets/demo/startup.mp4"><img src="assets/demo/startup.gif" width="640" alt="妆镜 · Beauty Mirror 启动与操作演示"></a>
+  <a href="assets/demo/startup.mp4"><img src="assets/demo/startup.gif" width="960" alt="妆镜 · Beauty Mirror 启动与操作演示"></a>
 </p>
 
 [观看 / 下载完整视频](assets/demo/startup.mp4) · [演示说明](assets/demo/startup.json)
 
-实际运行 --offline 模式；上传的是合成插画；视觉输出为 mock，内容来自本地缓存。 画面加入启动转场、镜头移动与操作字幕；展示节奏经过剪辑，不代表真实处理耗时。
+实际操作 --offline 原型：上传合成插画 → 回答三个问题 → 查看报告 → 风格跟练。视觉输出为 mock，内容来自本地缓存，不是实际人脸识别或医疗判断。 画面按操作顺序录制，输入与阅读停留经过剪辑，不代表实际模型耗时。
 
 <div align="center">
 
