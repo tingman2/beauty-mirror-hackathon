@@ -1,0 +1,48 @@
+{
+  "title": "妆镜 · Beauty Mirror",
+  "mode": "真实界面 · 离线模拟 / 合成示例图",
+  "notes": "实际运行 --offline 模式；上传的是合成插画；视觉输出为 mock，内容来自本地缓存。",
+  "source": "work/demo-production/captures/beauty",
+  "capture_date": "2026-10-10",
+  "editorial_effects": [
+    "browser frame",
+    "startup reveal",
+    "camera focus",
+    "click cue",
+    "captions",
+    "loop"
+  ],
+  "timing": "剪辑后的展示节奏，不代表真实处理耗时",
+  "steps": [
+    {
+      "capture": "01-home.png",
+      "action": "启动妆镜",
+      "caption": "打开首页，进入专属美妆工作台"
+    },
+    {
+      "capture": "02-upload.png",
+      "action": "进入工作台",
+      "caption": "查看照片说明与上传入口"
+    },
+    {
+      "capture": "03-photo.png",
+      "action": "上传示例图",
+      "caption": "使用合成插画，不使用真实个人照片"
+    },
+    {
+      "capture": "04-questionnaire.png",
+      "action": "回答三个问题",
+      "caption": "选择问卷答案，启动报告生成"
+    },
+    {
+      "capture": "05-report.png",
+      "action": "查看报告",
+      "caption": "展示问卷结论与模拟视觉结果"
+    },
+    {
+      "capture": "06-follow.png",
+      "action": "打开跟练",
+      "caption": "进入风格选择和教程入口"
+    }
+  ]
+}
