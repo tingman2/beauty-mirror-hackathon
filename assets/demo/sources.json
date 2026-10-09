@@ -1,0 +1,23 @@
+{
+  "title": "妆镜 · Beauty Mirror",
+  "duration_seconds": 9,
+  "fps": 8,
+  "scenes": [
+    {
+      "scene": "项目说明",
+      "source": "README.md",
+      "type": "repository content walkthrough"
+    },
+    {
+      "scene": "美妆工作台",
+      "source": "products/beauty_mirror/web/static/workbench.html",
+      "type": "repository content walkthrough"
+    },
+    {
+      "scene": "跟练与观察",
+      "source": "products/beauty_mirror/web/static/follow.html",
+      "type": "repository content walkthrough"
+    }
+  ],
+  "note": "Existing repository material; no live model calls or production availability claim."
+}
